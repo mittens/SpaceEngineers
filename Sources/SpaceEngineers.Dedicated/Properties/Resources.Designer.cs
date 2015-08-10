@@ -8,7 +8,8 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace SpaceEngineersDedicated.Properties {
+namespace things_vrageDedicated.Properties
+{
     using System;
     
     
@@ -39,7 +40,7 @@ namespace SpaceEngineersDedicated.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("SpaceEngineersDedicated.Properties.Resources", typeof(Resources).Assembly);
+					global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager( "things_vrageDedicated.Properties.Resources", typeof( Resources ).Assembly );
                     resourceMan = temp;
                 }
                 return resourceMan;

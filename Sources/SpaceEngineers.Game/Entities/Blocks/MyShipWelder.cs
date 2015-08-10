@@ -24,7 +24,7 @@ using VRage.Utils;
 using VRageMath;
 using VRageRender;
 
-namespace SpaceEngineers.Game.Entities.Blocks
+namespace things_vrage.Game.Entities.Blocks
 {
     [MyCubeBlockType(typeof(MyObjectBuilder_ShipWelder))]
     class MyShipWelder : MyShipToolBase, IMyShipWelder

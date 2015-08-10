@@ -11,7 +11,7 @@ using VRageMath;
 using Sandbox.Game;
 using Sandbox.Game.Entities.Cube;
 
-namespace SpaceEngineers.Game.Entities.UseObjects
+namespace things_vrage.Game.Entities.UseObjects
 {
     [MyUseObject("block")]
     class MyUseObjectMedicalRoom : IMyUseObject

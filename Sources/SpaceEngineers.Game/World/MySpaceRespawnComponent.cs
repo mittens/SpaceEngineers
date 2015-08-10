@@ -29,7 +29,7 @@ using VRageRender;
 using Sandbox.Game.SessionComponents;
 using VRage.Components;
 
-namespace SpaceEngineers.Game.Players
+namespace things_vrage.Game.Players
 {
     [PreloadRequired]
     [MySessionComponentDescriptor(MyUpdateOrder.BeforeSimulation)]

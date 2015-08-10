@@ -12,7 +12,7 @@ using VRage.Input;
 using VRage.ModAPI;
 using VRageMath;
 
-namespace SpaceEngineers.Game.Entities.UseObjects
+namespace things_vrage.Game.Entities.UseObjects
 {
     [MyUseObject("inventory")]
     [MyUseObject("conveyor")]

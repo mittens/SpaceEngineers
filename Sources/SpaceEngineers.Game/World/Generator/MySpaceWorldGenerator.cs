@@ -2,7 +2,7 @@
 using Sandbox.Game;
 using Sandbox.Game.Entities;
 using Sandbox.Game.World;
-using SpaceEngineers.Game.Entities.Blocks;
+using things_vrage.Game.Entities.Blocks;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,7 @@ using System.Text;
 using VRage.Library.Utils;
 using VRageMath;
 
-namespace SpaceEngineers.Game.World.Generator
+namespace things_vrage.Game.World.Generator
 {
     [PreloadRequired]
     class MySpaceWorldGenerator

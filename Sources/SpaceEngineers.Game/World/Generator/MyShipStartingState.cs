@@ -2,7 +2,7 @@
 using Sandbox.Definitions;
 using Sandbox.Game.Multiplayer;
 using Sandbox.Game.World;
-using SpaceEngineers.Game.Players;
+using things_vrage.Game.Players;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -10,7 +10,7 @@ using System.Linq;
 using System.Text;
 using VRageMath;
 
-namespace SpaceEngineers.Game.World
+namespace things_vrage.Game.World
 {
     [MyWorldGenerator.StartingStateType(typeof(MyObjectBuilder_WorldGeneratorPlayerStartingState_RespawnShip))]
     public class MyRespawnShipState : MyWorldGeneratorStartingStateBase

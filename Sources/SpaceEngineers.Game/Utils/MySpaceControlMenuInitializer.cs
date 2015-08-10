@@ -5,7 +5,7 @@ using Sandbox.Game.Gui;
 using Sandbox.Game.Localization;
 using Sandbox.Game.World;
 using Sandbox.Graphics.GUI;
-using SpaceEngineers.Game.Entities.UseObjects;
+using things_vrage.Game.Entities.UseObjects;
 using System;
 using System.Collections.Generic;
 using System.Linq;

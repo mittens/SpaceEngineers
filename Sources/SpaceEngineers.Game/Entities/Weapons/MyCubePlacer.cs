@@ -13,7 +13,7 @@ using VRageMath;
 
 #endregion
 
-namespace SpaceEngineers.Game.Entities.Weapons
+namespace things_vrage.Game.Entities.Weapons
 {
     [MyEntityType(typeof(MyObjectBuilder_CubePlacer))]
     class MyCubePlacer : MyBlockPlacerBase

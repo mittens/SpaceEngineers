@@ -13,7 +13,7 @@ using VRageMath;
 using VRageRender;
 using MyGuiConstants = Sandbox.Graphics.GUI.MyGuiConstants;
 
-namespace SpaceEngineers.Game.Gui
+namespace things_vrage.Game.Gui
 {
     // mk:TODO Remove once switching between Dx9 and Dx11 has been released.
     [Obsolete("Can be removed once switching between Dx9 and Dx11 has been released.")]

@@ -24,12 +24,12 @@ using VRage.Win32;
 using VRage.Library.Utils;
 using VRage.FileSystem;
 using Sandbox;
-using SpaceEngineers.Game;
+using things_vrage.Game;
 using System.Runtime.CompilerServices;
 
 #endregion
 
-namespace SpaceEngineers
+namespace things_vrage
 {
     static partial class MyProgram
     {
@@ -157,7 +157,7 @@ namespace SpaceEngineers
                 else if (MyFakes.ENABLE_DX11_RENDERER)
                 {
                     var rendererId = MySandboxGame.Config.GraphicsRenderer;
-                    if (rendererId.HasValue && rendererId.Value == SpaceEngineersGame.DirectX11RendererKey)
+					if( rendererId.HasValue && rendererId.Value == things_vrageGame.DirectX11RendererKey )
                     {
                         renderer = new MyDX11Render();
                         if (!renderer.IsSupported)
@@ -170,7 +170,7 @@ namespace SpaceEngineers
                     if (renderer == null)
                     {
                         renderer = new MyDX9Render();
-                        rendererId = SpaceEngineersGame.DirectX9RendererKey;
+						rendererId = things_vrageGame.DirectX9RendererKey;
                     }
 
                     MySandboxGame.Config.GraphicsRenderer = rendererId;
@@ -224,7 +224,7 @@ namespace SpaceEngineers
 
                 VRageRender.MyRenderProxy.GetRenderProfiler().StartProfilingBlock("new MySandboxGame()");
 
-                SpaceEngineersGame.SetupPerGameSettings();
+				things_vrageGame.SetupPerGameSettings( );
 
                 VRageGameServices services = new VRageGameServices(steamService);
 

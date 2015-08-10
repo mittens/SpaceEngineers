@@ -13,14 +13,14 @@ using VRage.Utils;
 using VRageMath;
 using VRageRender;
 
-namespace SpaceEngineers.Game.GUI
+namespace things_vrage.Game.GUI
 {
     public class MyGuiScreenOptionsGraphics : MyGuiScreenBase
     {
         static readonly MyStringId[] m_renderers = new MyStringId[]
         {
-            SpaceEngineersGame.DirectX9RendererKey,
-            SpaceEngineersGame.DirectX11RendererKey,
+            things_vrageGame.DirectX9RendererKey,
+            things_vrageGame.DirectX11RendererKey,
         };
 
         enum PresetEnum
@@ -196,7 +196,7 @@ namespace SpaceEngineers.Game.GUI
             table.Add(labelFov, hAlign, vAlign, row, leftCol);
             table.Add(m_sliderFov, hAlign, vAlign, row++, rightCol);
             table.Add(labelFovDefault, hAlign, MyAlignV.Top , row++, rightCol);
-            if (MyVideoSettingsManager.RunningGraphicsRenderer == SpaceEngineersGame.DirectX11RendererKey)
+            if (MyVideoSettingsManager.RunningGraphicsRenderer == things_vrageGame.DirectX11RendererKey)
             {
                 table.Add(labelGraphicsPresets, hAlign, vAlign, row, leftCol);
                 table.Add(m_comboGraphicsPresets, hAlign, vAlign, row++, rightCol);

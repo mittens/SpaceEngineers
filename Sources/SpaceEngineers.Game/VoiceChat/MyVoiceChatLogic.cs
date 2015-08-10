@@ -7,7 +7,7 @@ using Sandbox.Game.World;
 using VRage.Library.Utils;
 using VRage.Data.Audio;
 
-namespace SpaceEngineers.Game.VoiceChat
+namespace things_vrage.Game.VoiceChat
 {
     public class MyVoiceChatLogic : IMyVoiceChatLogic
     {

@@ -11,7 +11,7 @@ using VRage.Game.ObjectBuilders;
 using VRage.Library.Utils;
 using VRageMath;
 
-namespace SpaceEngineers.Game.World.Environment
+namespace things_vrage.Game.World.Environment
 {
 	[MyEnvironmentalParticleLogicType(typeof(MyObjectBuilder_EnvironmentalParticleLogicSpace))]
 	class MyEnvironmentalParticleLogicSpace : MyEnvironmentalParticleLogic

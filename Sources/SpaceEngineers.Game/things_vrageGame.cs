@@ -6,15 +6,15 @@ using Sandbox.Game;
 using Sandbox.Game.Entities.Cube;
 using Sandbox.Game.Screens.Helpers;
 using Sandbox.Graphics.Render;
-using SpaceEngineers.Game.GUI;
-using SpaceEngineers.Game.VoiceChat;
+using things_vrage.Game.GUI;
+using things_vrage.Game.VoiceChat;
 using System.Collections.Generic;
 using System.Text;
 using VRage.Utils;
 
-namespace SpaceEngineers.Game
+namespace things_vrage.Game
 {
-    public static partial class SpaceEngineersGame
+	public static partial class things_vrageGame
     {
         public static readonly MyStringId DirectX9RendererKey = MyStringId.GetOrCompute("DirectX 9");
         public static readonly MyStringId DirectX11RendererKey = MyStringId.GetOrCompute("DirectX 11");
@@ -22,10 +22,10 @@ namespace SpaceEngineers.Game
         public static void SetupPerGameSettings()
         {
             MyPerGameSettings.Game = GameEnum.SE_GAME;
-            MyPerGameSettings.GameName = "Space Engineers";
+            MyPerGameSettings.GameName = "All Things Die";
             MyPerGameSettings.GameIcon = "SpaceEngineers.ico";
             MyPerGameSettings.EnableGlobalGravity = false;
-            MyPerGameSettings.GameModAssembly = "SpaceEngineers.Game.dll";
+			MyPerGameSettings.GameModAssembly = "things_vrage.Game.dll";
             MyPerGameSettings.OffsetVoxelMapByHalfVoxel = true;
             MyPerGameSettings.EnablePregeneratedAsteroidHack = true;
             MySandboxGame.ConfigDedicated = new MyConfigDedicated<MyObjectBuilder_SessionSettings>("SpaceEngineers-Dedicated.cfg");

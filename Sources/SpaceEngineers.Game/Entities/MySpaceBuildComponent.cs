@@ -6,7 +6,7 @@ using Sandbox.Game.Entities;
 using Sandbox.Game.Entities.Character;
 using Sandbox.Game.Entities.Cube;
 using Sandbox.Game.World;
-using SpaceEngineers.Game.Entities.Blocks;
+using things_vrage.Game.Entities.Blocks;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -14,7 +14,7 @@ using System.Linq;
 using System.Text;
 using VRageMath;
 
-namespace SpaceEngineers.Game.Entities
+namespace things_vrage.Game.Entities
 {
     [PreloadRequired]
     [MySessionComponentDescriptor(MyUpdateOrder.NoUpdate)]

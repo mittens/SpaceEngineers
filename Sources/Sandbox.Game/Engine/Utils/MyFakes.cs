@@ -21,13 +21,13 @@ namespace Sandbox.Engine.Utils
 
         public static bool ENABLE_LONG_DISTANCE_GIZMO_DRAWING = false;
 
-        public static MyQuickLaunchType? QUICK_LAUNCH = null;
+		public static MyQuickLaunchType? QUICK_LAUNCH = MyQuickLaunchType.NEW_SANDBOX;
 
         public static string SINGLE_VOXEL_MATERIAL = null;//"Ice_01";s
 
         public static bool ALT_AS_DEBUG_KEY = true;
 
-        public static bool ENABLE_MENU_VIDEO_BACKGROUND = true;
+        public static bool ENABLE_MENU_VIDEO_BACKGROUND = false;
 
         public static bool ENABLE_LOGOS = false;
 

@@ -2,7 +2,7 @@
 
 using Sandbox.Common.ObjectBuilders;
 using Sandbox.Game;
-using SpaceEngineers.Game;
+using things_vrage.Game;
 using System;
 using System.ComponentModel;
 using System.Configuration.Install;
@@ -11,7 +11,7 @@ using VRage.Dedicated;
 
 #endregion
 
-namespace SpaceEngineersDedicated
+namespace things_vrageDedicated
 {
     static class MyProgram
     {
@@ -19,7 +19,7 @@ namespace SpaceEngineersDedicated
         [STAThread]
         static void Main(string[] args)
         {
-            SpaceEngineersGame.SetupPerGameSettings();
+			things_vrageGame.SetupPerGameSettings( );
 
             MyPerGameSettings.SendLogToKeen = DedicatedServer.SendLogToKeen;
 
@@ -31,11 +31,11 @@ namespace SpaceEngineersDedicated
 
             MyPerServerSettings.AppId = 244850;
 
-            ConfigForm<MyObjectBuilder_SessionSettings>.LogoImage = SpaceEngineersDedicated.Properties.Resources.SpaceEngineersDSLogo;
+			ConfigForm<MyObjectBuilder_SessionSettings>.LogoImage = things_vrageDedicated.Properties.Resources.SpaceEngineersDSLogo;
             ConfigForm<MyObjectBuilder_SessionSettings>.GameAttributes = Game.SpaceEngineers;
             ConfigForm<MyObjectBuilder_SessionSettings>.OnReset = delegate
             {
-                SpaceEngineersGame.SetupPerGameSettings();
+				things_vrageGame.SetupPerGameSettings( );
             };
 
 
@@ -54,7 +54,7 @@ namespace SpaceEngineersDedicated
         /// </summary>
         public WindowsServiceInstaller()
         {
-            SpaceEngineersGame.SetupPerGameSettings();
+			things_vrageGame.SetupPerGameSettings( );
 
             ServiceProcessInstaller serviceProcessInstaller =
                                new ServiceProcessInstaller();

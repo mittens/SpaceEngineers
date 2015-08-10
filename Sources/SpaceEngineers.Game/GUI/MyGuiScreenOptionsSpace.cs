@@ -3,12 +3,12 @@ using Sandbox.Engine.Utils;
 using Sandbox.Game.Gui;
 using Sandbox.Game.Localization;
 using Sandbox.Graphics.GUI;
-using SpaceEngineers.Game.Gui;
+using things_vrage.Game.Gui;
 using System.Text;
 using VRage;
 using VRageMath;
 
-namespace SpaceEngineers.Game.GUI
+namespace things_vrage.Game.GUI
 {
     class MyGuiScreenOptionsSpace : MyGuiScreenBase
     {
