@@ -148,7 +148,7 @@ namespace Sandbox.Game.Gui
             settings.VoxelGeneratorVersion = MyVoxelConstants.VOXEL_GENERATOR_VERSION;
             settings.CargoShipsEnabled = !settings.EnablePlanets;
             settings.EnableOxygen = true;
-            MyWorldGenerator.SetProceduralSettings(-1, settings);
+			MyWorldGenerator.SetProceduralSettings( ( int )MyGuiScreenWorldGeneratorSettings.AsteroidAmountEnum.ProceduralHigh, settings );
             return settings;
         }
 
